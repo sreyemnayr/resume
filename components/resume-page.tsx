@@ -735,10 +735,12 @@ export function ResumePageComponent() {
                 className="inline-flex h-9 items-center justify-center rounded-md border border-fuchsia-300 bg-black px-4 py-2 text-sm font-medium text-white shadow transition-colors hover:bg-fuchsia-100 hover:text-fuchsia-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-fuchsia-300 disabled:pointer-events-none disabled:opacity-50 pixel-text"
                 href="#contact"
                 onClick={() => {
-                  alert("Coming soon.");
+                  alert(
+                    "Somehow I've managed to avoid creating a CV this far in life. That may change, but for now, you can check out some of my work below."
+                  );
                 }}
               >
-                Download CV
+                My CV
               </Link>
             </div>
           </div>
