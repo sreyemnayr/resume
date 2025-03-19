@@ -165,6 +165,7 @@ const WebDevIcons = () => {
       <Icon IconElement={NginxIcon} title="Nginx" />
       <Icon IconElement={WordpressIcon} title="Wordpress" />
       <Icon IconElement={DockerIcon} title="Docker" />
+      <Icon IconElement={PrismaIcon} title="Prisma" />
     </div>
   );
 };
