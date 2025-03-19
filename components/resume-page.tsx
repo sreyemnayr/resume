@@ -93,6 +93,9 @@ import {
   SiGrunt as GruntIcon,
   SiGooglemaps as GoogleMapsIcon,
   SiGithub as GithubIcon,
+  SiGmail as GmailIcon,
+  SiGroupme as GroupmeIcon,
+  SiPrisma as PrismaIcon,
 } from "@icons-pack/react-simple-icons";
 
 const Icon = ({
@@ -213,6 +216,35 @@ interface Project {
 }
 
 const projects: Project[] = [
+  {
+    title: "OhPear!",
+    subtitle: "AI-powered family management",
+    img_folder: "ohpear",
+    description:
+      "OhPear! is a family management platform that uses AI to help families manage their lives. It is a web application that is built with React, Next.js, and Tailwind CSS.",
+    images: [
+      {
+        src: "thumbnail.png",
+        caption:
+          "OhPear! is a family management platform that uses AI to help families manage their lives. E-mail me for a login if you'd like to see it in action.",
+      },
+    ],
+    url: "https://ohpearapp.com",
+    tools: (
+      <div className="flex flex-wrap pt-4 px-10 background-slate-800 mx-auto text-center align-center justify-center text-3xl gap-2">
+        {/* OpenAI, Gmail, React, NextJS, Tailwind, GroupMe, Postgres, ZenStack, Prisma,  */}
+        <Icon IconElement={OpenaiIcon} title="OpenAI" />
+        <Icon IconElement={GmailIcon} title="Gmail" />
+        <Icon IconElement={ReactIcon} title="React" />
+        <Icon IconElement={NextjsIcon} title="Next.js" />
+        <Icon IconElement={TailwindIcon} title="Tailwind" />
+        <Icon IconElement={GroupmeIcon} title="GroupMe" />
+        <Icon IconElement={PostgresqlIcon} title="PostgreSQL" />
+
+        <Icon IconElement={PrismaIcon} title="Prisma" />
+      </div>
+    ),
+  },
   {
     title: "Plague Poppets",
     subtitle: "3D Animation on the Ethereum Blockchain",
