@@ -92,6 +92,7 @@ import {
   SiMysql as MysqlIcon,
   SiGrunt as GruntIcon,
   SiGooglemaps as GoogleMapsIcon,
+  SiGithub as GithubIcon,
 } from "@icons-pack/react-simple-icons";
 
 const Icon = ({
@@ -741,6 +742,14 @@ export function ResumePageComponent() {
                 }}
               >
                 My CV
+              </Link>
+              <Link
+                className="inline-flex h-9 items-center justify-center rounded-md bg-fuchsia-600 px-4 py-2 text-sm font-medium text-white shadow transition-colors hover:bg-fuchsia-700 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-fuchsia-300 disabled:pointer-events-none disabled:opacity-50 font-['Press_Start_2P']"
+                href="https://github.com/sreyeMnayR"
+                target="_blank"
+              >
+                <GithubIcon className="h-4 w-4 mr-2" />
+                GitHub
               </Link>
             </div>
           </div>
