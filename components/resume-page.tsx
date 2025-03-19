@@ -314,7 +314,7 @@ const projects: Project[] = [
           "Creation of a website for a local cannabis-based medicine company.",
       },
     ],
-    url: "https://noblelabsms.com",
+    url: "https://noble-labs.vercel.app/",
     tools: (
       <div className="flex flex-wrap pt-4 px-10 background-slate-800 mx-auto text-center align-center justify-center text-3xl gap-2">
         <Icon IconElement={Html5Icon} title="HTML5" />
